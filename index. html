@@ -67,7 +67,7 @@ nav { gap: 6px; padding: 9px 12px; }
 </nav>
 
 <section id="home" class="section home">
-<div class="pic-wrapper"><img src="image.jpg" alt="Profile"></div>
+<div class="pic-wrapper"><img src="profile.jpg" alt="Profile"></div>
 <h1>Blessery Joy H. Pumaras</h1>
 <h2>BSIT Student | Aspiring Networking Specialist</h2>
 <a href="#projects" class="btn">View My Projects</a>
