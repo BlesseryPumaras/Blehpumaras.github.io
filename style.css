@@ -1,6 +1,18 @@
-:root { --dark-green: #2f5233; --light-green: #7ba05b; --pale-green: #d4e0c8; --cream: #f8f6f0; --border-green: #4a7c59; } 
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif !important; } 
-body { background-color: var(--pale-green); background-image: linear-gradient(rgba(123, 160, 91, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(123, 160, 91, 0.2) 1px, transparent 1px); background-size: 30px 30px; color: #2b3d2b; line-height: 1.5; padding: 8px; } 
+:root { 
+  --dark-green: #2f5233; 
+  --light-green: #7ba05b; 
+  --pale-green: #d4e0c8; 
+  --cream: #f8f6f0; 
+  --border-green: #4a7c59; 
+} 
+* { 
+  box-sizing: border-box; 
+  margin: 0; padding: 0; 
+  font-family: Arial, sans-serif !important; } 
+body { 
+  background-color: var(--pale-green); 
+  background-image: linear-gradient(rgba(123, 160, 91, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(123, 160, 91, 0.2) 1px, transparent 1px); 
+  background-size: 30px 30px; color: #2b3d2b; line-height: 1.5; padding: 8px; } 
 nav { display: flex; justify-content: flex-start; align-items: center; gap: 12px; background: #ffffff !important; border: 2px solid var(--border-green); border-radius: 12px; padding: 11px 20px; position: sticky; top: 6px; z-index: 9999; box-shadow: 0 3px 10px rgba(0,0,0,0.2); flex-wrap: nowrap !important; white-space: nowrap; } 
 .logo { font-weight: 900; font-size: 23px !important; color: var(--dark-green); flex-shrink: 0; margin-right: 10px; padding-left: 4px; } 
 .nav-links { display: flex; gap: 10px; margin-left: 0; flex-wrap: nowrap !important; flex-shrink: 0; padding-right: 4px; } 
